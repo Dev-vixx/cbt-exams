@@ -1,0 +1,74 @@
+.login-container {
+   display: grid;
+   place-items: center;
+   width: 100%;
+   height: 100vh;
+}
+
+.login-container h3{
+    margin: .4em;
+}
+.login-container form{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 6px;
+    min-height: 450px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    filter: drop-shadow(0.4px 0.4px 1px #1e1d1d);
+}
+.login-container section{
+    flex: 1 0 1;
+    display: flex;
+    margin: 10px;
+    position: relative;
+}
+.login-container input{
+    padding: 10px 15px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    display: block;
+    flex-basis: 100%;
+    outline: none;
+    height: 20px;
+    text-indent: 28px;
+}
+.login-container button {
+    padding: 12px 14px;
+    background-color: #478df7;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.login-container button:disabled{
+    background-color: #d3d3d3 !important;
+    color: #000;
+}
+
+.login-container section span{
+    position: absolute;
+    top: 6px;
+    margin-left: 9px;
+    border-right: 1px solid #d3d3d3;
+    padding-right: 4px;
+}
+
+
+.login-container a{
+    margin: 10px;
+    text-decoration: none;
+}
+.login-container a:hover{
+    text-decoration: underline;
+}
+.login-container .a{
+    display: inline-block;
+    margin-left: 10px;
+}
